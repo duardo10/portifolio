@@ -125,3 +125,10 @@ section h2 {
     color: #555; /* Cor personalizada para o texto */
 }
 
+
+/* Media query para ajustar as imagens quando a largura da tela for menor */
+@media screen and (max-width: 768px) {
+    .projeto .menproject img {
+        max-width: 100%; /* Reduzir a largura das imagens para ocupar a largura total da tela */
+    }
+}
