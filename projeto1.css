@@ -101,14 +101,19 @@ section h2 {
 }
 
 .menproject img {
-    flex: 0.8;
-    max-width: 40%;
-    height: auto;
+    max-width: 40%; /* Define a largura máxima das imagens */
+    height: auto; /* Torna as imagens proporcionais */
     border-radius: 5px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra mais intensa e realçada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra mais intensa e realçada */
     transition: transform 0.2s, box-shadow 0.3s; /* Adicionar transições suaves */
 }
 
+/* Media query para ajustar as imagens quando a largura da tela for menor */
+@media screen and (max-width: 768px) {
+    .projeto .menproject img {
+        max-width: 100%; /* Reduzir a largura das imagens para ocupar a largura total da tela */
+    }
+}
 /* Estilo para o título do projeto */
 .menproject h3 {
     font-size: 24px;
