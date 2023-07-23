@@ -1,0 +1,127 @@
+/* Reset de estilos padrão */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	line-height: 1.6;
+	background-color: #f9f9f9;
+	color: #333;
+}
+
+header {
+	background-color: #3776ab;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 36px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	transition: color 0.3s;
+}
+
+nav a:hover {
+	color: #f00; /* Cor de destaque ao passar o mouse */
+}
+
+section {
+	padding: 50px;
+}
+
+section h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+/* Estilo específico para a página do Projeto de Gerenciamento de Clínica */
+#projetoClinica .projeto-container {
+	width: 45%; /* Largura do container do projeto */
+	display: inline-block;
+	vertical-align: top; /* Alinhamento vertical superior para as seções ficarem alinhadas */
+	margin: 0 2.5%; /* Margem entre as seções */
+}
+
+#projetoClinica img {
+	width: 20%; /* Definir a largura da imagem como 100% do container */
+	max-width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#projetoClinica p {
+	font-size: 16px;
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+
+/* Estilo para botão "Voltar para Home" */
+.botao-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; /* Adicionando transições suaves */
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adicionando sombra */
+}
+
+.botao-voltar:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Efeito de leve zoom no hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aumentando a intensidade da sombra no hover */
+}
+
+
+.menproject {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Alinhado a esquerda */
+    gap: 10px; /* Define o espaçamento entre as imagens */
+}
+
+.menproject img {
+    flex: 0.8;
+    max-width: 40%;
+    height: auto;
+    border-radius: 5px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra mais intensa e realçada */
+    transition: transform 0.2s, box-shadow 0.3s; /* Adicionar transições suaves */
+}
+
+/* Estilo para o título do projeto */
+.menproject h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center; /* Centralizar o título */
+    color: #3776ab; /* Cor personalizada para o título */
+}
+
+/* Estilo para o texto descritivo do projeto */
+.menproject p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center; /* Centralizar o texto */
+    color: #555; /* Cor personalizada para o texto */
+}
+

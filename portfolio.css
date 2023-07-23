@@ -1,0 +1,355 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #3776ab;
+}
+
+/* Estilo para o título principal do corpo */
+body h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o subtítulo principal do corpo */
+body h2 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os parágrafos do corpo */
+body p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: #3776ab;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f00; /* Cor de destaque ao passar o mouse */
+}
+
+section {
+    padding: 50px;
+    background-color: #f9f9f9; /* Cor de fundo */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+section h2 {
+    font-size: 32px; /* Tamanho maior para o título */
+    margin-bottom: 30px; /* Espaçamento maior entre o título e o conteúdo */
+    text-align: center; /* Centralizar o título */
+    color: #3776ab; /* Cor personalizada para o título */
+    text-transform: uppercase; /* Transformar o texto em maiúsculo */
+}
+
+/* Estilo para o conteúdo da seção */
+section p {
+    font-size: 18px; /* Tamanho do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    text-align: center; /* Justificar o texto */
+    color: #555; /* Cor personalizada para o texto */
+}
+
+/* Estilo para realçar a seção ao passar o mouse */
+section:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa no hover */
+    transform: translateY(-2px); /* Efeito de levantar ligeiramente a seção */
+    transition: box-shadow 0.3s, transform 0.3s; /* Transições suaves */
+}
+
+/* Estilo para a seção de projetos em geral */
+#projetos {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center; /* Centralizar o conteúdo da seção */
+}
+
+/* Estilo para projetos */
+.projeto {
+    margin-bottom: 40px;
+}
+
+.projeto img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menor img {
+    width: 32%; /* Aumentar o tamanho das imagens */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Agora centralizado */
+    gap: 10px; /* Define o espaçamento entre as imagens */
+}
+
+.menores img {
+    flex: 1;
+    width: 200px; /* Aumentar o tamanho das imagens */
+    max-width: 40%; /* Definir a largura máxima das imagens */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.projeto h3 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.projeto p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.projeto a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.projeto a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para seção "Sobre" */
+#sobre {
+    text-align: center; /* Centralizar o conteúdo da seção "Sobre" */
+    padding: 50px;
+}
+
+/* Estilo para a seção "Sobre" */
+.sobre-texto h3,
+.sobre-habilidades h3 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.sobre-habilidades ul {
+    list-style: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.sobre-habilidades li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.sobre-habilidades li:hover {
+    background-color: #0056b3;
+}
+
+.sobre-habilidades p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.sobre-habilidades a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.sobre-habilidades a:hover {
+    color: #0056b3;
+}
+
+
+/* Estilo para seção "Contato" */
+#contato {
+    text-align: center; /* Centralizar o conteúdo da seção "Contato" */
+    padding: 50px;
+}
+
+.contato-info {
+    margin-bottom: 40px;
+}
+
+.contato-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contato-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contato-info a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contato-info a:hover {
+    color: #0056b3;
+}
+
+.contato-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contato-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contato-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.contato-form input,
+.contato-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.contato-form textarea {
+    resize: vertical;
+}
+
+.contato-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contato-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para tornar o link clicável */
+.contato-form p {
+    margin-bottom: 0;
+}
+
+/* Estilo para a lista de ferramentas */
+.projeto ul.lista-ferramentas {
+    list-style: none; /* Remover a bolinha padrão das listas */
+    margin: 0;
+    padding: 0;
+    color: #555; /* Cor personalizada para os itens da lista */
+    text-align: center; /* Centralizar o texto dos itens da lista */
+}
+
+.projeto ul.lista-ferramentas li {
+    font-size: 18px; /* Aumentar o tamanho da fonte dos itens */
+    margin-bottom: 15px; /* Aumentar o espaçamento entre os itens */
+    line-height: 1.6; /* Ajustar o espaçamento entre as linhas */
+    position: relative; /* Habilitar posicionamento relativo para ícone personalizado */
+    display: flex; /* Utilizar flexbox para centralizar verticalmente */
+    align-items: center; /* Centralizar verticalmente o conteúdo do li */
+    justify-content: center; /* Centralizar horizontalmente o conteúdo do li */
+}
+
+.projeto ul.lista-ferramentas li:before {
+    content: "\2022"; /* Utilizar um marcador personalizado com o símbolo de bullet */
+    color: #007bff; /* Cor personalizada para o marcador */
+    font-weight: bold; /* Deixar o marcador em negrito */
+    margin-right: 10px; /* Adicionar espaço entre a bolinha e o texto */
+}
+
+.projeto ul.lista-ferramentas li:hover {
+    color: #0056b3; /* Cor personalizada ao passar o mouse sobre os itens */
+    cursor: pointer; /* Cursor de mão ao passar o mouse sobre os itens */
+}
+
+
+
+
+
+/* Estilo para o footer */
+footer {
+    background-color: #3776ab;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* Estilo para o link no footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

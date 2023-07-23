@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Portfólio de Visão Computacional</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="portfolio.css" />
+        <link rel="stylesheet" href="projeto1.css" />
+
+	</head>
+    <body>
+        <header>
+            <h1>Meu Portfólio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="projetos">
+            <h2>Tecnologias</h2>
+            <!-- Seus projetos aqui -->
+            <div class="projeto">
+                <img src="imagens/python.png" alt="Projeto 1">
+                <img src="imagens/opencv.png" alt="Projeto 1">
+                <img src="imagens/tensorflow.png" alt="Projeto 1">
+                <img src="imagens/machine_learning.jpeg" alt="Projeto 1">
+                <img src="imagens/mysql.png" alt="Projeto 1">
+            </div>
+            <div class="projeto">
+                <h2>Projetos</h2>
+                <!-- Seus projetos aqui -->
+                <h3>Projeto 1 - Clínica</h3>
+                <p>Sistema de gerenciamento de uma clínica.</p>
+                <div class="menor">
+                    <img src="imagens/login_clinica.png" alt="Projeto 1">
+                    <img src="imagens/login_medico.png" alt="Projeto 1">
+                    <img src="imagens/login_recep.png" alt="Projeto 1">
+                </div>
+                <!-- Ferramentas utilizadas no Projeto 1 - Clínica -->
+                <p>Ferramentas utilizadas:</p>
+                <ul class="lista-ferramentas">
+                    <li>Linguagem de programação: Python</li>
+                    <li>Front-end: PyQT5</li>
+                    <li>Banco de dados: MySQL</li>
+                </ul>
+                <a href="projeto1.html">Ver mais</a>
+            </div>
+            <div class="projeto">
+                <h3>Projeto 2 - Modelo de Deep Learning</h3>
+                <p>Reconhecimento Animal e Automóvel: Preveja o Animal ou Automóvel na Imagem com Precisão!</p>
+                <div class="menores">
+                    <img src="imagens/validacao_modelo.png" alt="Projeto 1">
+                    <img src="imagens/acuracia_modelo.png" alt="Projeto 1">
+                </div>
+                <p>Ferramentas utilizadas:</p>
+                <ul class="lista-ferramentas">
+                    <li>Framework de Deep Learning: TensorFlow</li>
+                    <li>DataSet: cifar10 </li>
+                    <li>Linguagem de programação: Python</li>
+                </ul>
+                <a href="projeto2.html">Ver mais</a>
+            </div>
+        </section>
+        
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <!-- Sobre você e suas habilidades aqui -->
+            <div class="sobre-texto">
+                <h3>Sobre Mim</h3>
+                <p>Olá! Meu nome é Luís Eduardo e sou um entusiasta de Visão Computacional, atualmente aluno do curso de sistemas da informação. Tenho experiência em trabalhar com contrução de modelos preditivos e 
+                processamento de imagens. Atualmente, estou buscando novos desafios para expandir meus conhecimentos e contribuir para projetos inovadores.</p>
+            </div>
+            <div class="sobre-habilidades">
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>OpenCV</li>
+                    <li>TensorFlow</li>
+                    <li>Deep Learning</li>
+                    <li>Processamento de Imagens</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="contato">
+            <h2>Contato</h2>
+            <!-- Informações de contato aqui -->
+            <div class="contato-info">
+                <h3>Sinta-se à vontade para entrar em contato:</h3>
+                <p>Email: <a href="mailto:duardos36@gmail.com">duardos36@gmail.com</a></p>
+                <p>GitHub: <a href="https://github.com/duardo10" target="_blank">https://github.com/duardo10</a></p>
+                <p>WhatsApp: <a href="mailto:(89)981209282">(89) 981209282</a></p>
+                <p>Instagram: <a href="https://www.instagram.com/luis_eduardo_0612/" target="_blank">Luis Eduardo</a></p>
+            </div>
+            <div class="contato-form">
+                <h3>Fale Comigo</h3>
+                <form action="enviar_email.php" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="João da Silva">
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="joao.silva@example.com">
+        
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required placeholder="Digite sua mensagem aqui"></textarea>
+        
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 Luis Eduardo. Todos os direitos reservados.</p>
+        </footer>
+        
+    </body>
+</html>
